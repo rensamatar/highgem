@@ -78,10 +78,9 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
-	border-bottom: 1px solid #e2e2e2;
+	background-color: #000;
 	padding: 4px 0px 3px 0;
-	margin: 0 0 20px 0;
+	margin: 0;
 	min-height: 40px;
 }
 #top .container {
@@ -99,7 +98,7 @@ div.required .control-label:before {
 }
 #top .btn-link, #top-links li, #top-links a {
 	color: #888;
-	text-shadow: 0 1px 0 #FFF;
+	text-shadow: none;
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
@@ -113,13 +112,42 @@ div.required .control-label:before {
 }
 #top .btn-link strong {
 	font-size: 14px;
-        line-height: 14px;
+	line-height: 14px;
 }
 #top-links {
 	padding-top: 6px;
 }
 #top-links a + a {
 	margin-left: 15px;
+}
+/* header */
+#header {
+	padding: 60px 0;
+	font-size: 24px;
+	text-align: left;
+	color: #cdbfe3;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+	background-color: #6f5499;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+	background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+	background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+	background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+	background-repeat: repeat-x;
+}
+#header h1 a {
+	color: #fff;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 1;
+}
+#header h1 a span {
+	text-transform: uppercase;
+}
+#header p {
+	font-weight: 300;
+	line-height: 1.4;
+	margin-bottom: 0;
 }
 /* logo */
 #logo {
@@ -167,11 +195,11 @@ div.required .control-label:before {
 #cart .dropdown-menu {
 	min-width: 100%;
 }
-	@media (max-width: 478px) {
-		#cart .dropdown-menu {
-			width: 100%;
-		}
+@media (max-width: 478px) {
+	#cart .dropdown-menu {
+		width: 100%;
 	}
+}
 #cart .dropdown-menu table {
 	margin-bottom: 10px;
 }
@@ -179,25 +207,25 @@ div.required .control-label:before {
 	min-width: 427px;
 	padding: 0 10px;
 }
-	@media (max-width: 478px) {
-		#cart .dropdown-menu li > div {
-			min-width: 100%;
-		}
+@media (max-width: 478px) {
+	#cart .dropdown-menu li > div {
+		min-width: 100%;
 	}
+}
 #cart .dropdown-menu li p {
 	margin: 20px 0;
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	background-color: #272626;
 	min-height: 40px;
+	padding: 3.53px 40px;
+	border-radius: 0;
 }
 #menu .nav > li > a {
 	color: #fff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	text-transform: uppercase;
 	padding: 10px 15px 10px 15px;
 	min-height: 15px;
 	background-color: transparent;
@@ -310,7 +338,7 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
+	background-color: #272626;
 	border-top: 1px solid #ddd;
 	color: #e2e2e2;
 }
@@ -540,10 +568,10 @@ footer h5 {
 	float: none;
 }
 @media (min-width: 767px) {
-.product-list .product-thumb .image {
-	float: left;
-	padding: 0 15px;
-}
+	.product-list .product-thumb .image {
+		float: left;
+		padding: 0 15px;
+	}
 }
 .product-thumb h4 {
 	font-weight: bold;
@@ -556,20 +584,20 @@ footer h5 {
 	margin-left: 230px;
 }
 @media (max-width: 1200px) {
-.product-grid .product-thumb .caption {
-	min-height: 210px;
-	padding: 0 10px;
-}
+	.product-grid .product-thumb .caption {
+		min-height: 210px;
+		padding: 0 10px;
+	}
 }
 @media (max-width: 767px) {
-.product-list .product-thumb .caption {
-	min-height: 0;
-	margin-left: 0;
-	padding: 0 10px;
-}
-.product-grid .product-thumb .caption {
-	min-height: 0;
-}
+	.product-list .product-thumb .caption {
+		min-height: 0;
+		margin-left: 0;
+		padding: 0 10px;
+	}
+	.product-grid .product-thumb .caption {
+		min-height: 0;
+	}
 }
 
 .product-thumb .rating {
@@ -690,16 +718,16 @@ h2.price {
 
 /* fixed colum left + content + right*/
 @media (min-width: 768px) {
-    #column-left  .product-layout .col-md-3{
-       width: 100%;
-    }
-    #column-left + #content .product-layout .col-md-3 {
-       width: 50%;
-    }
-    #column-left + #content + #column-right .product-layout .col-md-3{
-       width: 100%;
-    }
-    #content + #column-right .product-layout .col-md-3{
-       width: 100%;
-    }
+	#column-left  .product-layout .col-md-3{
+		width: 100%;
+	}
+	#column-left + #content .product-layout .col-md-3 {
+		width: 50%;
+	}
+	#column-left + #content + #column-right .product-layout .col-md-3{
+		width: 100%;
+	}
+	#content + #column-right .product-layout .col-md-3{
+		width: 100%;
+	}
 }

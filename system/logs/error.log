@@ -1,0 +1,34 @@
+2015-02-09 11:50:51 - PHP Notice:  Undefined variable: logo in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 8
+2015-02-09 11:50:51 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 11
+2015-02-09 11:50:51 - PHP Notice:  Undefined variable: name in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 11
+2015-02-09 11:50:51 - PHP Notice:  Undefined variable: search in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 16
+2015-02-09 11:50:51 - PHP Notice:  Undefined variable: cart in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 17
+2015-02-09 11:52:32 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 6
+2015-02-09 11:52:32 - PHP Notice:  Undefined variable: name in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 6
+2015-02-09 11:54:30 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 6
+2015-02-09 11:55:11 - PHP Notice:  Undefined variable: logo in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 8
+2015-02-09 11:55:11 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 11
+2015-02-09 11:55:11 - PHP Notice:  Undefined variable: search in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 16
+2015-02-09 11:55:11 - PHP Notice:  Undefined variable: cart in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 17
+2015-02-09 11:56:06 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 8
+2015-02-09 11:56:17 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 8
+2015-02-09 11:56:40 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 8
+2015-02-09 11:56:54 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 8
+2015-02-09 11:57:19 - PHP Notice:  Undefined variable: home in /Users/tar/Sites/highgem/catalog/view/theme/default/template/common/home.tpl on line 6
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/banner-img1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/banner-img1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-2.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-2.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-3.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-3.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/banner-img1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/banner-img1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-1.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-2.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-2.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-3.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-3.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 12:24:16 - PHP Notice:  Undefined variable: column_left in /Users/tar/Sites/highgem/catalog/view/theme/default/template/module/slideshow.tpl on line 15
