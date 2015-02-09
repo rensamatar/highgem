@@ -32,3 +32,7 @@
 2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-3.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
 2015-02-09 12:12:31 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/slide-3.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
 2015-02-09 12:24:16 - PHP Notice:  Undefined variable: column_left in /Users/tar/Sites/highgem/catalog/view/theme/default/template/module/slideshow.tpl on line 15
+2015-02-09 13:03:52 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/ring.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 13:03:52 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/ring.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11
+2015-02-09 13:04:54 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/ring.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/admin/model/tool/image.php on line 26
+2015-02-09 13:04:54 - PHP Warning:  getimagesize(/Users/tar/Sites/highgem/image/catalog/highgem/ring.jpg): failed to open stream: Permission denied in /Users/tar/Sites/highgem/system/library/image.php on line 11

@@ -107,6 +107,9 @@
             <?php } ?>
             <?php } ?>
           </ul>
+          <ul class="nav navbar-nav pull-right">
+            <li><?php echo $cart; ?></li>
+          </ul>
         </div>
       </div>
     </nav>

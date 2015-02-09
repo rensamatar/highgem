@@ -122,7 +122,7 @@ div.required .control-label:before {
 }
 /* header */
 #header {
-	padding: 60px 0;
+	padding: 80px 0 60px;
 	font-size: 24px;
 	text-align: left;
 	color: #cdbfe3;
@@ -219,7 +219,7 @@ div.required .control-label:before {
 #menu {
 	background-color: #272626;
 	min-height: 40px;
-	padding: 3.53px 40px;
+	padding: 10px 40px 0;
 	border-radius: 0;
 }
 #menu .nav > li > a {
